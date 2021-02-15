@@ -26,18 +26,20 @@ Terminal lets us run the following functions:
 </pre>
 3. **calculateFolderSize** - returns the size of everything contained in the current folder, including subfolders. Here, the symbolic links are counted as having no size.
 4. **listFiles** and **listRecursiveFiles** could get a following filters:
-   * start with text
-   * end with text 
-   * contains text 
+   * Start with text
+   * End with text 
+   * Contains text 
    * Type
-   * greater than size
+   * Greater than size
 5. **cd**  - change the current folder (absolute)
 6. **pwd** - should print the current folder
 7. **createFile**  (name and size) - create a file under the current folder
 8. **createFolder** (name) - create a folder under the current folder
 9. **createSymbolicLink** (name, reference) - create a symbolic link under the current folder
-10. validation - entity name in specific folder is unique.
-11. write unit tests 
+10. Validation - entity name in specific folder is unique.
+11. Write unit tests 
+
+
 
 
 
